@@ -5,3 +5,11 @@
 ```
 Get-PSSnapin -Registered
 ```
+
+## 7. PowerShell Formatting
+### 1 The Formatting Process
+```
+$pshome
+get-service bits
+get-service | get-member name
+```
