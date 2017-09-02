@@ -12,4 +12,5 @@ Get-PSSnapin -Registered
 $pshome
 get-service bits
 get-service | get-member name
+select-string system.servceprocess.servicecontroller -context 0.30|more
 ```
