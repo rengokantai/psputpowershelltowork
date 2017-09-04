@@ -27,4 +27,5 @@ custom
 get-vegetable | format-list
 get-vegetable | fl *
 get-vegetable | fl name,count
+get-vegetable | fl name,count,@{Name="Status";Expression={$_.cookedstate}}
 ```
