@@ -29,3 +29,7 @@ get-vegetable | fl *
 get-vegetable | fl name,count
 get-vegetable | fl name,count,@{Name="Status";Expression={$_.cookedstate}}
 ```
+
+```
+get-vegetable | sort color | f1 -Groupby color Name,Count,IsRoot
+```
